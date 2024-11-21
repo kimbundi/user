@@ -29,6 +29,7 @@ const Smsexplore = () => {
     } else {
       console.log("Error", data);
       setResult(data.message);
+      alert(data.message)
       toast.error(error.code.split('/')[1].split('-').join(""));
     }
   };
