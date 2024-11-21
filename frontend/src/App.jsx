@@ -41,6 +41,7 @@ else {
         <Route path='/' element={<Login/>} />
         <Route path='/home' element={<Home/>} />
         <Route path='/sms' element={<> <Navbar/>   <Smsexplore/>  </>} />
+        <Route path='/contact' element ={ <> <Navbar/>   <Footer/> </>}/>
 
 
 

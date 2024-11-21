@@ -47,6 +47,9 @@
         font-size: 20px;
         
     }
+    .header-contents p{
+        font-size: 10px;
+    }
     .header-contents button{
         width: 100px;
         height: 30px;
@@ -60,11 +63,14 @@
     flex-direction: column;
     align-items: start;
     gap:1.5vw;
-    max-width: 50%;
+    max-width: 70%;
     bottom: 10%;
-    left: 20vw;
+    left: 10vw;
     animation: fadein 3s;
 
+}
+.header{
+    margin-top: 70px;
 }
   
     

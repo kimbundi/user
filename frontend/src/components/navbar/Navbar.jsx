@@ -5,6 +5,7 @@ import { logout } from '../config/Firebase';
 import { Link } from 'react-router-dom';
 import closes from '../../assets/closes.png';
 
+
 const Navbar = () => {
   const menuRef = useRef();
     
@@ -37,9 +38,9 @@ const Navbar = () => {
          
           
       <Link to='/home'>   <li     onClick={()=>setMenu("home")}    className={menu ==="home"?"active":""}>Home </li></Link> 
-        <li   onClick={()=>setMenu("menu")}     className={menu ==="menu"?"active":""}>Menu</li>
+       <Link to='/'><li   onClick={()=>setMenu("signup")}     className={menu ==="signup"?"active":""}>Sign up</li></Link> 
       <Link to='/sms'>  <li   onClick={()=>setMenu("sms")}      className={menu ==="sms"?"active":""}>SMS</li></Link> 
-        <li   onClick={()=>setMenu("contact-us")}      className={menu ==="contact-us"?"active":""}> Contact us</li>
+       <Link to='/contact'><li   onClick={()=>setMenu("contact")}      className={menu ==="contact"?"active":""}> Contact us</li></Link> 
         
         </ul>
         <button onClick={()=>logout()}>Log Out</button>

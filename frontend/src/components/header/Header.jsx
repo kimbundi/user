@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header-contents">
     
             <h2>WELCOME TO BULKY SMS</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ut incidunt laboriosam voluptates voluptas eveniet vel nemo itaque voluptate veritatis!</p>
+            <p>Enter your email and the message you would want to be sent and click submit the message will be submitted in seconds Thank you for choosing craftcodedesigners</p>
             <button>View Sms</button>
 
         </div>

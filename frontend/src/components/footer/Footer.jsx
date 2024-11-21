@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-content">
            <div className="footer-content-left">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, odio!</p>
+          <p>Grow your business with us !</p>
 
           <div className="footer-social-icons">
           <img src={assets.facebook_icon} alt="" />
@@ -46,6 +46,7 @@ const Footer = () => {
 
 
         </div>
+        <hr/>
 
 
         <p className='footer-copyright'>copyright 2024 &copy;craftcodedesigners-All Right Reserved</p>
