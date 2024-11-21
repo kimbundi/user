@@ -47,9 +47,9 @@ const Smsexplore = () => {
 
 
             <label> Email</label>
-            <input type="mail" placeholder='Enter Your Email' />
+            <input type="mail" placeholder='Enter Your Email'  required />
             <label> Write your message here</label>
-            <textarea name="message" rows='8' placeholder='enter your message' ></textarea>
+            <textarea name="message" rows='8' placeholder='enter your message'  required></textarea>
            <button type='submit' className='contact-submit'> Submit now</button>
 
 

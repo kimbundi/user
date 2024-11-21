@@ -41,6 +41,7 @@ const signup = async(username,email,password) =>{
             chatData:[]
             
         }) ;
+         toast.success('Signup successful!');
 
 
         
